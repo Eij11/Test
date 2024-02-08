@@ -1,0 +1,117 @@
+@media (max-width: 767px){
+    *{
+        /* font-family: 'Heebo', sans-serif; */
+        font-family: 'Roboto', sans-serif;
+    }
+/* ===================================== */
+/* TITLE */
+/* ===================================== */
+    .title-container{
+        /* display: inline-block; */
+    }
+    .title-container h2{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        text-align: center;
+
+        transform: translate(0px,180px);
+
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+            typing 2s steps(25),
+            cursoe .4s step-end infinite alternate;
+        }
+    
+        @keyframes cursor {
+            50%{
+                border-color: transparent;
+            }  
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+/* ===================================== */
+/* IMAGE */
+/* ===================================== */
+    .set-image-container .gif-cat{
+        width: 150px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .gif-center{
+        width: 150px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .gif-rnd1{
+        width: 150px;
+        position: absolute;
+        transform: translate(120px, 15px);
+  
+    }
+
+    .gif-rnd2{
+        width: 170px;
+        position: absolute;
+        transform: translate(240px, 250px);
+    }
+
+    .gif-rnd3{
+        width: 150px;
+        position: absolute;
+        transform: translate(30px, 400px);
+    }
+    .hidden img{
+        display: none;
+    }
+
+/* ===================================== */
+/* BUTTON */
+/* ===================================== */
+
+    .button-container{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .yes-btn, .no-btn{
+        background-color: Transparent;
+        border: solid 1px #f0161a;
+        cursor:pointer;   
+        border-radius: 2px;
+ 
+
+        margin: 10px;
+        font-size: 25px;
+        padding: 15px, 10px;
+
+        transform: translate(0px,570px);  
+    }
+
+    .yes-btn:hover, .no-btn:hover{
+        background-color: #f0161a;
+        color: white;
+    }
+
+    /* .no-btn{
+        position: absolute;
+    } */
+    
+}
